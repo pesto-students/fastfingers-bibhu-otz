@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
+import SignInForm from './components/signin/SignIn'
+
 
 function App() {
+ 
   return (
-    <div className="App">
-      <h1>Fast Fingers </h1>
+    <div style={{flex:1}}>
+      <SignInForm/>
     </div>
+    
   );
 }
 
