@@ -1,0 +1,82 @@
+.header-container{
+    margin-bottom:40px;
+    margin-top:10px;
+    .player-name{
+        font-family: Breamcatcher;
+        font-size: 1.7rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ff5155;
+        text-transform: uppercase;
+        img{
+            width: 30px;
+            margin:0 5px;
+            vertical-align: baseline;
+        }
+        @media screen and (max-width:540px) {
+            text-align: center;
+        }
+    }
+    
+    .game-name{
+        font-family:Breamcatcher;
+        font-size: 3rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ff5155;
+        @media screen and (max-width:540px) {
+            font-size: 2.6rem;
+            text-align: center;
+        }
+    }
+    .game-level{
+        font-family: Breamcatcher;
+        font-size: 1.7rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ff5155;
+        text-transform: uppercase;
+        img{
+            width: 30px;
+            margin:0 5px;
+            vertical-align: baseline;
+        }
+        @media screen and (max-width:540px) {
+            text-align: center;
+        }
+        
+    }
+    .score{
+        font-family: Breamcatcher;
+        font-size: 2rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ff5155;
+        @media screen and (max-width:540px) {
+            text-align: center;
+        }
+    }
+    @media screen and (max-width:540px) {
+        .custom-row{
+            display: flex;
+            flex-direction: row-reverse;
+        } 
+    }
+    
+}

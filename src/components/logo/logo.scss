@@ -1,0 +1,56 @@
+.logo-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    img{
+        width:11%;
+    }
+    h2{
+        font-family: KaushanScript-Regular;
+        font-size: 4rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ff5155;
+        margin: 0;
+        @media screen and (max-width:540px) {
+            font-size: 2rem; 
+        }
+    }
+    p{
+        font-family: Gotham;
+        font-size: 1rem;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.19;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ff5155;
+        margin:15px;
+        padding: 2px;
+        @media screen and (max-width:415px) {
+            font-size: 0.6rem; 
+        }
+        span{
+            width: 9rem;
+            height:.1rem;
+            vertical-align:middle;
+            display: inline-block;
+            background-color: #ff5155;
+            margin-right:1rem;
+            margin-left: 1rem;
+            @media screen and (max-width:540px) {
+                width: 2rem; 
+            }
+        }
+        
+    }
+    
+}

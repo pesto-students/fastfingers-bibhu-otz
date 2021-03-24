@@ -1,0 +1,46 @@
+.timer-container{
+    position: relative;
+    width:200px;
+    height:200px;
+    left: 18%;
+    @media screen and (max-width:540px) {
+        left: 12%;
+    }
+    .svg-circle-container{
+        stroke: none;
+        fill:none;
+    }
+    .svg-circle{
+        stroke-width:5px;
+        stroke:#698d99;
+        fill: transparent;
+    }
+    .time-left{
+        position: absolute;
+        width:200px;
+        height:200px;
+        top:0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.9rem;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.19;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .svg-path-remaining{
+        stroke-width: 7px;
+        stroke-linecap: round;
+        transform: rotate(90deg);
+        transform-origin: center;
+        transition: 1s linear all;
+        stroke:#ff5155;
+    }
+    .svg-holder{
+        transform: scaleX(-1);
+    }
+
+}

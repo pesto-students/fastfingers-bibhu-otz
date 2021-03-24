@@ -1,0 +1,40 @@
+.score-board-container{
+    border-radius: 5px;
+    border: solid 2px #ff5155;
+    min-height:400px;
+    h4{
+        font-family: Gotham;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ff5155;
+        text-transform: uppercase;
+    }
+    p{
+        font-family: Gotham;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+    h5{
+        font-family: Gotham;
+        font-size: 11px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.18;
+        letter-spacing: normal;
+        text-align: left;
+        margin-left:60px;
+        color: #ff5155;
+    }
+}
