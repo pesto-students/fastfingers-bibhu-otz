@@ -1,0 +1,87 @@
+.form-container{
+    margin-top:25px;
+    input{
+        text-transform: uppercase;
+        opacity: 0.59;
+        border-radius: 5px;
+        box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.8);
+        background-color: #ffffff;
+        color: #032228;
+    }
+    input::placeholder{
+        color: #032228;
+    }
+    select{
+        border-radius: 5px;
+        box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.8);
+        border: solid 1px #ffffff;
+        background-color: transparent;
+        color: #97a5a7;
+    }
+    select:focus{
+        background-color: transparent!important;
+        color: #97a5a7;
+        border: solid 1px #ffffff;
+        border-radius: 5px;
+        box-shadow: none;
+    }
+    select option{
+        background: rgba(161,166,167,1);
+        box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.8);
+        color: #032228;
+        margin: 5px;
+    }
+    select option:checked,select option:hover{
+        background: #053a45 !important;
+        color:#fff;
+        border-radius: 5px;
+        outline:none;
+    }
+    select:focus > option:checked { 
+        background: #053a45 !important;
+        color:#fff;
+        border-radius: 5px;
+        margin:5px;
+        outline:none;
+    }
+    .btn-start{
+        text-align: center;
+        text-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
+        font-family: Gotham;
+        font-size:1.9rem;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ff5155;
+        margin-top:40px;   
+        @media screen and (max-width:540px) {
+            font-size: 1.8rem; 
+        }
+    }
+    .btn-start::before{
+        content: " ";
+        display: inline-block;
+        position: relative;
+        top: 5px;
+        left:-20px;
+        width: 36px;
+        height: 41px;
+        background: url('../../assets/images/play-icon.svg') no-repeat center center;
+        @media screen and (max-width:540px) {
+            top: 8px;
+            width: 36px;
+            height: 41px;
+        }
+    }
+    .btn:focus{
+        box-shadow: none;
+    }
+     .txt-error{
+        text-align: left;
+        color:#ff5155;
+        font-size: 1.0rem;
+    }
+}
