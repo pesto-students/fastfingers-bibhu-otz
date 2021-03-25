@@ -43,7 +43,7 @@ class GameHome extends Component {
                             onChange={(e) => this.handleUserInput('playerName', e.target.value)}
                             className="form-control" type="text" />
                     </div>
-                    {playerNameErr && <p className="text-danger">{playerNameErr}</p>}
+                    {playerNameErr && <p className="txt-error">* {playerNameErr}</p>}
                     <div className="input-group mb-3">
                         <select placeholder="Select Game Level" data-testid="select-game-level" value={gameDifficultyLevel} onChange={(e) => this.handleUserInput('gameDifficultyLevel', e.target.value)}
                             className="form-control" >
